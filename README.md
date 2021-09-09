@@ -17,3 +17,13 @@
 * Cap
 
 [Click here to see About Me](./AboutMe.md)
+
+**
+## Food And Drinks
+The below are the list of Food/drinks I would recommed to try !!
+| Item | Location | Cost |
+|------|----------|------|
+| Choclate Almond Jar | Cream Stone | $10 |
+| Cheeza | KFC | $12 |
+| Tacos | Tacobell | $3.45 |
+| Mushroom Spice Pizza | AppleBees | $14 |
