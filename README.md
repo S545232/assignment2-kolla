@@ -34,3 +34,32 @@ The below are the list of Food/drinks I would recommed to try !!
 
 > "Be Stubborn" - Anil Kolla
 
+**
+## Quick information about Dynamic Programming
+>Dynamic programming is both a mathematical optimization method and a computer programming method. The method was developed by Richard Bellman in the 1950s and has found applications in numerous fields, from aerospace engineering to economics.
+
+[Quick-link for the source](https://en.wikipedia.org/wiki/Dynamic_programming)
+
+
+bool next_balanced_sequence(string & s) {
+    int n = s.size();
+    int depth = 0;
+    for (int i = n - 1; i >= 0; i--) {
+        if (s[i] == '(')
+            depth--;
+        else
+            depth++;
+
+        if (s[i] == '(' && depth > 0) {
+            depth--;
+            int open = (n - i - 1 - depth) / 2;
+            int close = n - i - 1 - open;
+            string next = s.substr(0, i) + ')' + string(open, '(') + string(close, ')');
+            s.swap(next);
+            return true;
+        }
+    }
+    return false;
+}
+
+[Quick-link for the source code](https://cp-algorithms.com/combinatorics/bracket_sequences.html)
