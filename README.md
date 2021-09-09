@@ -27,3 +27,10 @@ The below are the list of Food/drinks I would recommed to try !!
 | Cheeza | KFC | $12 |
 | Tacos | Tacobell | $3.45 |
 | Mushroom Spice Pizza | AppleBees | $14 |
+
+**
+## Pithy Quotes
+> "Simplicity is the ultimate Sophistication"  - Lenardo da vinci
+
+> "Be Stubborn" - Anil Kolla
+
